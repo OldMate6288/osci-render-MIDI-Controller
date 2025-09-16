@@ -14,6 +14,8 @@ The reason it is based on osci-render is because I have been messing around with
 - 49 Mappable CC toggles
 - 8 Mappable MIDI notes + octave toggles
 
+---
+
 ## Requirements:
 
 | Item | Version / Link |

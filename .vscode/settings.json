@@ -1,0 +1,39 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.espIdfPathWin": "c:\\Users\\Flynt\\esp\\esp-idf-v5.5",
+  "idf.pythonInstallPath": "C:\\Users\\Flynt\\.espressif\\tools\\idf-python\\3.11.2\\python.exe",
+  "idf.openOcdConfigs": [
+    "board/esp32p4-builtin.cfg"
+  ],
+  "idf.portWin": "COM14",
+  "idf.toolsPathWin": "C:\\Users\\Flynt\\.espressif",
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32p4"
+  },
+  "clangd.path": "C:\\Users\\Flynt\\.espressif\\tools\\esp-clang\\esp-19.1.2_20250312\\esp-clang\\bin\\clangd.exe",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=C:\\Users\\Flynt\\.espressif\\tools\\xtensa-esp-elf\\esp-14.2.0_20241119\\xtensa-esp-elf\\bin\\xtensa-esp32-elf-gcc.exe",
+    "--compile-commands-dir=${workspaceFolder}\\build"
+  ],
+  "idf.flashType": "UART",
+  "files.associations": {
+    "array": "c",
+    "string": "c",
+    "string_view": "c",
+    "span": "c",
+    "esp32_p4_function_ev_board.h": "c",
+    "map": "c",
+    "format": "c",
+    "stdint.h": "c",
+    "ui.h": "c",
+    "midi_control.h": "c",
+    "freertos.h": "c",
+    "lvgl.h": "c",
+    "ui_drumpadscreen.h": "c",
+    "ui_globalobjs.h": "c",
+    "ui_mainscreen.h": "c",
+    "ui_settingsscreen.h": "c",
+    "midi_device.h": "c"
+  }
+}

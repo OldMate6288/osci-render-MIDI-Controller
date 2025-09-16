@@ -2,7 +2,7 @@
 
 A **MIDI controller** for [osci-render](https://osci-render.com), built with the **ESP32-P4 Devkit** using [LVGL](https://lvgl.io/) + **TinyUSB**.
 
-
+[<img width="1280" height="720" alt="Untitled" src="https://github.com/user-attachments/assets/fb49a7b0-c60a-4ee2-b3dd-0fd29101aab7" />](https://www.youtube.com/watch?v=a-7x3LHUfTs)
 
 This started as a weekend project (which then turned into a week long project), it is designed to be an example to help people that want to use MIDI alongside LVGL for UI updates/interactability in their own projects.
 
@@ -10,7 +10,11 @@ The reason it is based on osci-render is because I have been messing around with
 
 ---
 
-## Requirements
+## Features:
+- 49 Mappable CC toggles
+- 8 Mappable MIDI notes + octave toggles
+
+## Requirements:
 
 | Item | Version / Link |
 |------|----------------|
@@ -19,7 +23,7 @@ The reason it is based on osci-render is because I have been messing around with
 | osci-render | [Official site](https://osci-render.com) |
 | DAW with VST3 support | Any |
 
-<h2>HOW TO INSTALL/SETUP:</h2>
+## HOW TO INSTALL/SETUP:
 
 - Open the project in ESP-IDF, plug your cable into the ESP32 UART port, select your COM port and flash the build to your device
   
